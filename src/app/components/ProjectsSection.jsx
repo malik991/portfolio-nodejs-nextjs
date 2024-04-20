@@ -12,7 +12,12 @@ const projectsData = [
     image: "/images/projects/1.png",
     tag: ["All", "Web"],
     gitUrl: "/",
-    previewUrl: "/",
+    previewUrl: "#contact",
+    images: [
+      "/images/projects/1.png",
+      "/images/projects/2.png",
+      "/images/projects/3.png",
+    ],
   },
   {
     id: 2,
@@ -22,6 +27,11 @@ const projectsData = [
     tag: ["All", "Web"],
     gitUrl: "/",
     previewUrl: "/",
+    images: [
+      "/images/projects/1.png",
+      "/images/projects/2.png",
+      "/images/projects/3.png",
+    ],
   },
   {
     id: 3,
@@ -31,6 +41,11 @@ const projectsData = [
     tag: ["All", "Web"],
     gitUrl: "/",
     previewUrl: "/",
+    images: [
+      "/images/projects/1.png",
+      "/images/projects/2.png",
+      "/images/projects/3.png",
+    ],
   },
   {
     id: 4,
@@ -40,6 +55,11 @@ const projectsData = [
     tag: ["All", "Mobile"],
     gitUrl: "/",
     previewUrl: "/",
+    images: [
+      "/images/projects/1.png",
+      "/images/projects/2.png",
+      "/images/projects/3.png",
+    ],
   },
   {
     id: 5,
@@ -49,6 +69,11 @@ const projectsData = [
     tag: ["All", "Web"],
     gitUrl: "/",
     previewUrl: "/",
+    images: [
+      "/images/projects/1.png",
+      "/images/projects/2.png",
+      "/images/projects/3.png",
+    ],
   },
   {
     id: 6,
@@ -58,6 +83,11 @@ const projectsData = [
     tag: ["All", "Web"],
     gitUrl: "/",
     previewUrl: "/",
+    images: [
+      "/images/projects/1.png",
+      "/images/projects/2.png",
+      "/images/projects/3.png",
+    ],
   },
 ];
 
@@ -117,6 +147,7 @@ const ProjectsSection = () => {
               imgUrl={project.image}
               gitUrl={project.gitUrl}
               previewUrl={project.previewUrl}
+              images={project.images} // Pass images array
             />
           </motion.li>
         ))}

@@ -30,7 +30,8 @@ const Navbar = () => {
           href={"/"}
           className="text-2xl md:text-5xl text-white font-semibold"
         >
-          LOGO
+          Al-Rehman <br />
+          <p className="text-sm text-orange-400">FullStack Web Developers</p>
         </Link>
         <div className="mobile-menu block md:hidden">
           {!navbarOpen ? (

@@ -10,7 +10,7 @@ export async function POST(req, res) {
   try {
     const data = await resend.emails.send({
       from: fromEmail,
-      to: [fromEmail, email],
+      to: "mubi.emailid@gmail.com",
       subject: subject,
       react: (
         <>
@@ -18,9 +18,11 @@ export async function POST(req, res) {
           <p>Thank you for contacting us!</p>
           <p>New message submitted:</p>
           <p>{message}</p>
+          <p>client Email: {email}</p>
         </>
       ),
     });
+    //console.log(data);
     return NextResponse.json(data);
   } catch (error) {
     return NextResponse.json({ error });
