@@ -70,13 +70,13 @@ const AboutSection = () => {
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
             As a dynamic full-stack web developer, I thrive on crafting
-            immersive and adaptable web experiences. <br />
-            With a robust toolkit encompassing technologies like Next.js,
-            NextAuth, JavaScript, TypeScript, React, Redux, Node.js, Express,
-            PostgreSQL, Sequelize, MongoDB, Mongoose, HTML, CSS, and Git, I'm
-            equipped to tackle any challenge head-on. <br /> Let's embark on a
-            journey together, where passion meets proficiency, and together,
-            we'll build extraordinary digital experiences that leave a lasting
+            immersive and adaptable web experiences. <br /> With a robust
+            toolkit encompassing technologies like Next.js, NextAuth,JavaScript,
+            TypeScript, React, Redux, Node.js, Express, PostgreSQL,
+            Sequelize,MongoDB, Mongoose, HTML, CSS, and Git, I am equipped to
+            tackle any challenge head-on. <br /> Lets embark on a journey
+            together, where passion meets proficiency, and together, we will
+            build extraordinary digital experiences that leave a lasting
             impression.
           </p>
           <div className="flex flex-row justify-start mt-8">

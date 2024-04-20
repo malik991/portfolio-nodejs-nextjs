@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { CodeBracketIcon, EyeIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
+import Image from "next/image";
 import {
   Dialog,
   DialogTitle,
@@ -105,10 +106,12 @@ const ProjectCard = ({
           Draggable Dialog
         </DialogTitle>
         <DialogContent>
-          <img
+          <Image
             src={images[currentImageIndex]}
             alt={`Project ${currentImageIndex + 1}`}
-            className="w-full"
+            layout="responsive"
+            width={500}
+            height={500}
           />
         </DialogContent>
         <DialogActions>
