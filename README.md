@@ -1,11 +1,11 @@
 # Portfolio Website
 
-This is a portfolio website built with Next.js and Tailwind CSS. It showcases your skills, projects, and achievements in an elegant and responsive design.
+This is a portfolio website built with Next.js and Tailwind CSS. It showcases your skills, projects, and achievements in an elegant and responsive design. i have added how to provide you cv. and wiht the help of material ui added dialog to preview the images
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/judygab/nextjs-portfolio.git`
-2. Navigate to the project directory: `cd portfolio-website`
+1. Clone the repository: `https://github.com/malik991/nextjs-portfolio.git`
+2. Navigate to the project directory: `cd nextjs-portfolio`
 3. Install the dependencies: `npm install`
 
 ## Usage
@@ -23,6 +23,7 @@ The following dependencies are required for this project:
 - React Icons: A collection of popular icons for React projects.
 - TypeScript: A typed superset of JavaScript that compiles to plain JavaScript.
 - Resend: Resend is the email API for developers.
+- material ui componnet to show the images in popup
 
 ## License
 
