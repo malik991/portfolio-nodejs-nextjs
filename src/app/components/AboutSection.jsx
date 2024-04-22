@@ -67,7 +67,7 @@ const AboutSection = () => {
           height={500}
         />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
-          <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
+          <h2 className="text-4xl font-bold text-[#DC6B19] mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
             As a dynamic full-stack web developer, I thrive on crafting
             immersive and adaptable web experiences. <br /> With a robust
