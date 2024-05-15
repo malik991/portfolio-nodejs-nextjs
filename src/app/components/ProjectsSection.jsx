@@ -10,9 +10,23 @@ const projectsData = [
     title: "React Portfolio Website",
     description: "Project 1 description",
     image: "/images/projects/1.png",
-    tag: ["All", "Web"],
+    tag: ["All", "Web", "Mobile"],
     gitUrl: "/",
     previewUrl: "#contact",
+    images: [
+      "/images/projects/1.png",
+      "/images/projects/2.png",
+      "/images/projects/3.png",
+    ],
+  },
+  {
+    id: 4,
+    title: "Food Ordering Application",
+    description: "Project 4 description",
+    image: "/images/projects/4.png",
+    tag: ["All", "Mobile", "Web"],
+    gitUrl: "https://alrehmanai-food-ordering.vercel.app/",
+    previewUrl: "/",
     images: [
       "/images/projects/1.png",
       "/images/projects/2.png",
@@ -47,20 +61,7 @@ const projectsData = [
       "/images/projects/3.png",
     ],
   },
-  {
-    id: 4,
-    title: "Food Ordering Application",
-    description: "Project 4 description",
-    image: "/images/projects/4.png",
-    tag: ["All", "Mobile"],
-    gitUrl: "/",
-    previewUrl: "/",
-    images: [
-      "/images/projects/1.png",
-      "/images/projects/2.png",
-      "/images/projects/3.png",
-    ],
-  },
+
   {
     id: 5,
     title: "React Firebase Template",
