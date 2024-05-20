@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@tailwind line-clamp; /* Make sure this line is included */
 
 :root {
   --foreground-rgb: 0, 0, 0;
