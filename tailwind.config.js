@@ -13,6 +13,9 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      lineClamp: {
+        5: "5",
+      },
     },
     colors: {
       ...colors,
@@ -20,5 +23,9 @@ module.exports = {
       secondary: colors.yellow,
     },
   },
-  plugins: [],
+  variants: {
+    // Enable line-clamp utility variants
+    lineClamp: ["responsive"],
+  },
+  plugins: [require("@tailwindcss/line-clamp")],
 };

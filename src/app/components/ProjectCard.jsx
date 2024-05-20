@@ -81,9 +81,19 @@ const ProjectCard = ({
           </Button>
         </div>
       </div>
-      <div className="text-white rounded-b-xl mt-3 bg-[#181818]py-6 px-4">
-        <h5 className="text-xl font-semibold mb-2">{title}</h5>
-        <p className="text-[#ADB7BE]">{description}</p>
+      <div className="text-white flex flex-col rounded-b-xl mt-3 bg-[#181818]py-6 px-4">
+        <Link href={gitUrl} target="_blank">
+          <h5 className="text-xl font-semibold mb-2 hover:text-[#49243E]">
+            {title}
+          </h5>
+        </Link>
+
+        <p
+          className="text-[#ADB7BE] text-[16px] font-[400] leading-[22px] line-clamp-5"
+          style={{ letterSpacing: "-1.4px" }}
+        >
+          {description}
+        </p>
       </div>
       {/* Popup Dialog */}
       <Dialog
