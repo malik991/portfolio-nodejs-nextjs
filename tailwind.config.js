@@ -27,5 +27,5 @@ module.exports = {
     // Enable line-clamp utility variants
     lineClamp: ["responsive"],
   },
-  plugins: [require("@tailwindcss/line-clamp")],
+  plugins: [],
 };
