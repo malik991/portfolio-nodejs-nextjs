@@ -31,6 +31,7 @@ const projectsData = [
     previewUrl: "/",
     images: [
       "/images/projects/f1.png",
+      "/images/projects/piza-dashboard.png",
       "/images/projects/f2.png",
       "/images/projects/f3.png",
       "/images/projects/f4.png",
