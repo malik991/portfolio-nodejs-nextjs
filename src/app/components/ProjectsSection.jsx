@@ -54,6 +54,40 @@ const projectsData = [
     ],
   },
   {
+    id: 7,
+    title: "Real Estate - Tax Calculator ",
+    description:
+      "I have developed a comprehensive web application in React that enables users to calculate land transfer taxes in the province of Punjab. This user-friendly tax calculator helps individuals determine the dues and charges they need to pay for transferring, purchasing, inheriting, or receiving land as a gift.",
+    image: "/images/projects/r2.png",
+    tag: ["All", "Mobile", "Web"],
+    gitUrl: "https://alrehmanai-land-transfer-fee.vercel.app/",
+    previewUrl: "/",
+    images: [
+      "/images/projects/r3.png",
+      "/images/projects/r2.png",
+      "/images/projects/r1.png",
+      "/images/projects/r4.png",
+      "/images/projects/r5.png",
+    ],
+  },
+  {
+    id: 8,
+    title: "Streak Tracking - Application ",
+    description:
+      "I have developed a streak-tracking application using Next.js and NextAuth for authentication. The app offers a seamless registration process with email verification and instant username availability checks. For password recovery, it sends a 6-digit code via email for secure resets. Middleware ensures proper access control, allowing only authenticated users to access protected pages, thereby providing a secure and personalized experience.",
+    image: "/images/projects/streakapp/main.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://alrehmanai-streakapp.vercel.app/",
+    previewUrl: "/",
+    images: [
+      "/images/projects/streakapp/main.png",
+      "/images/projects/streakapp/login.png",
+      "/images/projects/streakapp/forgot-password.png",
+      "/images/projects/streakapp/reset-password-screen.png",
+      "/images/projects/streakapp/usermanage.png",
+    ],
+  },
+  {
     id: 3,
     title: "My ChildHood game",
     description:
@@ -64,7 +98,6 @@ const projectsData = [
     previewUrl: "/",
     images: ["/images/projects/simon-game.png"],
   },
-
   {
     id: 5,
     title: "Drum-kit Using JS-CSS",
