@@ -7,21 +7,38 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "React Portfolio Website",
+    title: "Real Estate - Tax Calculator ",
     description:
-      "Welcome to my portfolio website, showcasing my technical expertise and qualifications. Built with Next.js, React, and TypeScript, it features a sleek design using Material UI and dynamic animations with Framer Motion. Explore my projects, skills, and achievements in an interactive environment. This site reflects my commitment to innovation and excellence in web development.",
-    image: "/images/projects/1.png",
+      "Developed a web app to calculate taxes on land mutations and determine inheritance shares.Aimed at 120 million people in Punjab, Pakistan, to prevent overcharging by providing accurate tax information and inheritance shares.",
+    image: "/images/projects/r2.png",
+    tag: ["All", "Mobile", "Web"],
+    gitUrl: "https://alrehmanai-land-transfer-fee.vercel.app/",
+    previewUrl: "/",
+    images: [
+      "/images/projects/r3.png",
+      "/images/projects/r2.png",
+      "/images/projects/r1.png",
+      "/images/projects/r4.png",
+      "/images/projects/r5.png",
+    ],
+  },
+  {
+    id: 2,
+    title: "Real-Time Chat Application",
+    description:
+      "Users can log in and chat in real-time, with all messages stored in a database. The app dynamically tracks online status, sends notifications with unread message counts, and provides read receipts, ensuring a seamless messaging experience similar to WhatsApp.",
+    image: "/images/projects/chat-app/chat2.png",
     tag: ["All", "Web", "Mobile"],
     gitUrl: "/",
     previewUrl: "#contact",
     images: [
-      "/images/projects/por1.png",
-      "/images/projects/por2.png",
-      "/images/projects/por3.png",
+      "/images/projects/chat-app/chat2.png",
+      "/images/projects/chat-app/login-chat.png",
+      "/images/projects/chat-app/unread.png",
     ],
   },
   {
-    id: 4,
+    id: 3,
     title: "Food Ordering - ECOMMERCE ",
     description:
       "I developed an e-commerce website for food ordering, featuring seamless Stripe integration for secure payments. Users can easily log in, update their profiles, and manage their orders. The admin has comprehensive control to oversee all orders and users, with powerful reporting tools for monthly revenue analysis. The project utilizes a robust tech stack, including Node.js, JavaScript, MongoDB, Next.js, and NextAuth for authentication. This solution ensures a smooth user experience and efficient administrative management. It's designed to meet the needs of both customers and the business, enhancing overall operational efficiency.",
@@ -38,8 +55,9 @@ const projectsData = [
       "/images/projects/f5.png",
     ],
   },
+
   {
-    id: 2,
+    id: 4,
     title: "Figma Design To WebApp",
     description:
       "I meticulously crafted a responsive landing page, seamlessly adapting to various screen sizes from mobile to large screens. Transforming a Figma design into a dynamic React application with TypeScript, I ensured optimal user experience across devices. By implementing best practices in front-end development, including media queries and flexible layouts, the landing page maintains its elegance and functionality on every screen. This project underscores my expertise in creating engaging web interfaces that prioritize usability and accessibility. It's a testament to my commitment to delivering polished, responsive designs tailored to modern browsing habits.",
@@ -53,25 +71,9 @@ const projectsData = [
       "/images/projects/3.png",
     ],
   },
+
   {
-    id: 7,
-    title: "Real Estate - Tax Calculator ",
-    description:
-      "I have developed a comprehensive web application in React that enables users to calculate land transfer taxes in the province of Punjab. This user-friendly tax calculator helps individuals determine the dues and charges they need to pay for transferring, purchasing, inheriting, or receiving land as a gift.",
-    image: "/images/projects/r2.png",
-    tag: ["All", "Mobile", "Web"],
-    gitUrl: "https://alrehmanai-land-transfer-fee.vercel.app/",
-    previewUrl: "/",
-    images: [
-      "/images/projects/r3.png",
-      "/images/projects/r2.png",
-      "/images/projects/r1.png",
-      "/images/projects/r4.png",
-      "/images/projects/r5.png",
-    ],
-  },
-  {
-    id: 8,
+    id: 5,
     title: "Streak Tracking - Application ",
     description:
       "I have developed a streak-tracking application using Next.js and NextAuth for authentication. The app offers a seamless registration process with email verification and instant username availability checks. For password recovery, it sends a 6-digit code via email for secure resets. Middleware ensures proper access control, allowing only authenticated users to access protected pages, thereby providing a secure and personalized experience.",
@@ -88,7 +90,7 @@ const projectsData = [
     ],
   },
   {
-    id: 3,
+    id: 6,
     title: "My ChildHood game",
     description:
       "I have designed and developed my childhood Simon game in JavaScript. In this game, players must remember the pattern of colors until a mismatch occurs, continuing until then. It is highly engaging—give it a try!",
@@ -99,7 +101,7 @@ const projectsData = [
     images: ["/images/projects/simon-game.png"],
   },
   {
-    id: 5,
+    id: 7,
     title: "Drum-kit Using JS-CSS",
     description:
       "Experience the exhilaration of playing a lifelike drum kit brought to life with JavaScript and CSS. Immerse yourself in the rhythm as you feel the authentic sensation of beating drums with every tap. Engage your senses and unleash your inner musician with this interactive drumming experience. Dive in and let the beats transport you to a world of rhythmic bliss. Try it now and feel the groove",
@@ -110,7 +112,7 @@ const projectsData = [
     images: ["/images/projects/drum-kit.png"],
   },
   {
-    id: 6,
+    id: 8,
     title: "Full-stack Roadmap",
     description: "Project 5 description",
     image: "/images/projects/6.png",

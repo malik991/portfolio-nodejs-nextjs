@@ -10,16 +10,17 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>Node.js</li>
+        <li>React</li>
+        <li>Socket.IO</li>
         <li>Next.js</li>
         <li>Express</li>
         <li>PostgreSQL</li>
-        <li>Sequelize</li>
         <li>MongoDB</li>
-        <li>Mongoose</li>
         <li>JavaScript</li>
         <li>typeScript</li>
-        <li>React</li>
+        <li>Tailwind</li>
         <li>Redux</li>
+        <li>Zustand</li>
       </ul>
     ),
   },
