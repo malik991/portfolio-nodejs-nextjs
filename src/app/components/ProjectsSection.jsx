@@ -29,7 +29,7 @@ const projectsData = [
       "Users can log in and chat in real-time, with all messages stored in a database. The app dynamically tracks online status, sends notifications with unread message counts, and provides read receipts, ensuring a seamless messaging experience similar to WhatsApp.",
     image: "/images/projects/chat-app/chat2.png",
     tag: ["All", "Web", "Mobile"],
-    gitUrl: "/",
+    gitUrl: "https://mern-chat-app-b14c.onrender.com/login",
     previewUrl: "#contact",
     images: [
       "/images/projects/chat-app/chat2.png",
