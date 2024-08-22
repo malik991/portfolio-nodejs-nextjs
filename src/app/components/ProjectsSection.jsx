@@ -55,23 +55,21 @@ const projectsData = [
       "/images/projects/f5.png",
     ],
   },
-
   {
-    id: 4,
-    title: "Figma Design To WebApp",
+    id: 8,
+    title: "Dynamic Business Landing Page",
     description:
-      "I meticulously crafted a responsive landing page, seamlessly adapting to various screen sizes from mobile to large screens. Transforming a Figma design into a dynamic React application with TypeScript, I ensured optimal user experience across devices. By implementing best practices in front-end development, including media queries and flexible layouts, the landing page maintains its elegance and functionality on every screen. This project underscores my expertise in creating engaging web interfaces that prioritize usability and accessibility. It's a testament to my commitment to delivering polished, responsive designs tailored to modern browsing habits.",
-    image: "/images/projects/2.png",
+      "A sleek and responsive business landing page built with Next.js, featuring eye-catching animations for a modern look. The project includes four essential pages: login, signup, and password recovery, ensuring a smooth user experience. Designed for business owners to introduce their services with a professional online presence. The landing page combines functionality with aesthetics to engage visitors effectively. Ideal for showcasing a brand with style and ease of use.",
+    image: "/images/projects/business/1.png",
     tag: ["All", "Web"],
-    gitUrl: "https://alrehmanai-figma1.netlify.app/",
+    gitUrl: "https://alrehmanai-landing-page.vercel.app/",
     previewUrl: "/",
     images: [
-      "/images/projects/1.png",
-      "/images/projects/2.png",
-      "/images/projects/3.png",
+      "/images/projects/business/3.png",
+      "/images/projects/business/login.png",
+      "/images/projects/business/signup.png",
     ],
   },
-
   {
     id: 5,
     title: "Streak Tracking - Application ",
@@ -87,6 +85,21 @@ const projectsData = [
       "/images/projects/streakapp/forgot-password.png",
       "/images/projects/streakapp/reset-password-screen.png",
       "/images/projects/streakapp/usermanage.png",
+    ],
+  },
+  {
+    id: 4,
+    title: "Convert Figma To WebSite",
+    description:
+      "I meticulously crafted a responsive landing page, seamlessly adapting to various screen sizes from mobile to large screens. Transforming a Figma design into a dynamic React application with TypeScript, I ensured optimal user experience across devices. By implementing best practices in front-end development, including media queries and flexible layouts, the landing page maintains its elegance and functionality on every screen. This project underscores my expertise in creating engaging web interfaces that prioritize usability and accessibility. It's a testament to my commitment to delivering polished, responsive designs tailored to modern browsing habits.",
+    image: "/images/projects/2.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://alrehmanai-figma1.netlify.app/",
+    previewUrl: "/",
+    images: [
+      "/images/projects/1.png",
+      "/images/projects/2.png",
+      "/images/projects/3.png",
     ],
   },
   {
@@ -110,20 +123,6 @@ const projectsData = [
     gitUrl: "https://malik991.github.io/Drum-kit/",
     previewUrl: "/",
     images: ["/images/projects/drum-kit.png"],
-  },
-  {
-    id: 8,
-    title: "Full-stack Roadmap",
-    description: "Project 5 description",
-    image: "/images/projects/6.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
-    images: [
-      "/images/projects/1.png",
-      "/images/projects/2.png",
-      "/images/projects/3.png",
-    ],
   },
 ];
 
