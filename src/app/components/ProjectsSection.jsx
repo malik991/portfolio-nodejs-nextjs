@@ -71,6 +71,21 @@ const projectsData = [
     ],
   },
   {
+    id: 9,
+    title: "Car Marketplace",
+    description:
+      "A fully responsive and mobile-friendly platform where users can search for new or used cars by brand, category, or price range, and buy or sell cars. Features include viewing the most searched cars and managing profiles and listings. Built with React, Node.js, Tailwind CSS, PostgreSQL, and Firebase for a seamless experience.",
+    image: "/images/projects/cars/car1.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://car-gala.netlify.app/",
+    previewUrl: "/",
+    images: [
+      "/images/projects/cars/car2.png",
+      "/images/projects/cars/car3.png",
+      "/images/projects/cars/car1.png",
+    ],
+  },
+  {
     id: 5,
     title: "Streak Tracking - Application ",
     description:
