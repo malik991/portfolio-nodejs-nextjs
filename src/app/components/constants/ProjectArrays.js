@@ -83,6 +83,17 @@ const projectsData = [
     ],
   },
   {
+    id: 12,
+    title: "Asymmetric Cryptography",
+    description:
+      "secure balance transfer system using React, Node.js, and ethereum-cryptography. Users can sign messages with their private keys, ensuring the authenticity and integrity of transactions. The sender encrypts data with the recipient's public key, and only the recipient can decrypt it using their private key. This method ensures private keys never leave the user's environment, maintaining security. 💡 Secure, scalable, and privacy-focused!",
+    image: "/images/projects/blockchain/crypto.PNG",
+    tag: ["All", "Web3.0"],
+    gitUrl: "https://alrehmanai-ecdsa.netlify.app/",
+    previewUrl: "/",
+    images: ["/images/projects/blockchain/crypto.PNG"],
+  },
+  {
     id: 8,
     title: "Dynamic Business Landing Page",
     description:
